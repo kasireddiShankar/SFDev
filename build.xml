@@ -1,24 +1,22 @@
-<project name="Sample usage of Salesforce Ant tasks12345" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
+<project name="salesforce" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
 
     <property file="build.properties"/>
     <property environment="env"/>
 
- <target name="deploy">
-  <sf:deploy
-  username="${sf.usernameProd}"
-  password="${sf.passwordProd}"
-  serverurl="${sf.serverurlProd}"
-  deployroot="Retrieve"/>
- </target>
+    <target name="deployRunAllTests">
+      <sf:deploy username="${sf.username}" 
+        password="${sf.password}" 
+        serverurl="${sf.serverurl}" 
+        runAllTests="true"
+        logType="Detail"
+        deployRoot="src"/>
+    </target>
 
- <target name="retrieve">
-  <sf:retrieve
-  username="${sf.username}"
-  password="${sf.password}"
-  serverurl="${sf.serverurl}"
-  retrieveTarget="Retrieve"
-     maxPoll="${sf.maxPoll}"
-  unpackaged="package.xml"/>
- </target>
-  
+    <target name="undeployCode">
+      <sf:deploy username="${sf.username}" 
+        password="${sf.password}" 
+        serverurl="${sf.serverurl}" 
+        deployRoot="undeploy"/>
+    </target>    
+
 </project>
