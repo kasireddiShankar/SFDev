@@ -1,5 +1,6 @@
 global class LocationServices {
-    public class Location {
+    //test comments
+	public class Location {
         public Decimal longitude {get; set;}
         public Decimal latitude {get; set;}
         public Decimal postalCode {get; set;}
