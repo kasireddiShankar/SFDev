@@ -7,12 +7,12 @@
       <sf:deploy username="${sf.username}" 
         password="${sf.password}" 
         serverurl="${sf.serverurl}" 
-        runAllTests="true"
         testLevel="RunLocalTests"
         logType="Detail"
         deployRoot="src"/>
     </target>
 <!-- testLevel = RunLocalTests, RunAllTestsInOrg-->
+    <!-- runAllTests="true"-->
     <target name="undeployCode">
       <sf:deploy username="${sf.username}" 
         password="${sf.password}" 
