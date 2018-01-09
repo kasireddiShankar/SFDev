@@ -1,1 +1,4 @@
-public class SampleClass{}
+public class SampleClass{
+
+//test comments
+}
