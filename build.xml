@@ -8,8 +8,8 @@
         password="${sf.password}" 
         serverurl="${sf.serverurl}" 
         testLevel="RunLocalTests"
-        logType="None"
-        deployRoot="Detail"/>
+        logType="Detail"
+        deployRoot="src"/>
     </target>
 <!-- testLevel = RunLocalTests, RunAllTestsInOrg, NoTestRun-->
     <!-- runAllTests="true"-->
