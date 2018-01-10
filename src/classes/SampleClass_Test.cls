@@ -5,8 +5,8 @@ public class SampleClass_Test {
         SampleClass.method1(); 
 		//test comments123
 		
-		account acc = null;
-		system.debug(acc.name);
+		//account acc = null;
+		//system.debug(acc.name);
 }
 
 }
