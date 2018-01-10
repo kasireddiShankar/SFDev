@@ -9,7 +9,7 @@
         serverurl="${sf.serverurl}" 
         testLevel="RunLocalTests"
         logType="None"
-        deployRoot="src"/>
+        deployRoot="Detail"/>
     </target>
 <!-- testLevel = RunLocalTests, RunAllTestsInOrg, NoTestRun-->
     <!-- runAllTests="true"-->
