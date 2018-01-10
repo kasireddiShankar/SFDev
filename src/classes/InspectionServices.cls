@@ -1,7 +1,7 @@
 global class InspectionServices {
 	webservice static string completeSurveys(String ids) {
     	if (ids == null) {
-    		return 'Error: you must provide  an id';	
+    		return 'Error: you must provide  and id';	
     	}
     	
         List<string> iids = ids.split(',');
