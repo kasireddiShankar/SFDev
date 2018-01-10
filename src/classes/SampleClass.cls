@@ -5,7 +5,7 @@ public class SampleClass{
 
 public static void method1(){
 Account a = new Account();
-a.name='test1234';
+a.name='test12344324';
 insert a;
 }
 }
