@@ -1,5 +1,5 @@
 global class InspectionServices {
-	//test run
+	//test run by
 	webservice static string completeSurveys(String ids) {
     	if (ids == null) {
     		return 'Error: you must provide  id';	
