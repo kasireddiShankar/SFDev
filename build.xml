@@ -3,13 +3,21 @@
     <property file="build.properties"/>
     <property environment="env"/>
 
-    <target name="deployRunAllTests">
+    <!--<target name="deployRunAllTests">
       <sf:deploy username="${sf.username}" 
         password="${sf.password}" 
         serverurl="${sf.serverurl}" 
         testLevel="RunLocalTests"
         logType="Detail"
         deployRoot="src"/>
+    </target>
+-->
+       <target name="deployCodeCheckOnly">
+      <sf:deploy username="${sf.username}" 
+        password="${sf.password}" 
+        serverurl="${sf.serverurl}" 
+        logType="Detail"
+        deployRoot="src" checkOnly="true"/>
     </target>
 <!-- testLevel = RunLocalTests, RunAllTestsInOrg, NoTestRun-->
     <!-- runAllTests="true"-->
