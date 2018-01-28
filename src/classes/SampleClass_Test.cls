@@ -6,7 +6,7 @@ public class SampleClass_Test {
 		//test comments1234we
 		
 		account acc = null;
-		system.debug(acc.name);
+		//system.debug(acc.name);
 }
 
 }
