@@ -2,7 +2,7 @@
 private class SurveyControllerTest {
 
 	private static String inspectionId;
-	
+	/*
 	@isTest static void testSurveyLoadSuccess() {
 		
 		PageReference pageRef = Page.SurveyPage;
@@ -174,4 +174,5 @@ private class SurveyControllerTest {
 		//insert sr1;
 
 	}
+	*/
 }
