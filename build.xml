@@ -8,7 +8,7 @@
         password="${sf.password}" 
         serverurl="${sf.serverurl}" 
         testLevel="RunLocalTests"
-        logType="Db"
+        logType="Detail"
         deployRoot="src"/>
     </target>
        <target name="deployCodeCheckOnly">
