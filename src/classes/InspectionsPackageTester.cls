@@ -1,8 +1,8 @@
-//@IsTest(SeeAllData=true)
-//global class InspectionsPackageTester implements HttpCalloutMock {
-   global class InspectionsPackageTester {
+@IsTest(SeeAllData=true)
+global class InspectionsPackageTester implements HttpCalloutMock {
+   //global class InspectionsPackageTester {
 
-   /* static testMethod void testPackage() {
+    static testMethod void testPackage() {
         //Insert two stores
         Store__c store1 = new Store__c();
         store1.Address__c = 'Paseo de la Castellana 135';
@@ -87,5 +87,5 @@
         res.setStatusCode(200);
         return res;
     }  
-    */
+    
 }
