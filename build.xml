@@ -8,7 +8,7 @@
         password="${sf.password}" 
         serverurl="${sf.serverurl}" 
         testLevel="RunLocalTests"
-        logType="None"
+        logType="Db"
         deployRoot="src"/>
     </target>
        <target name="deployCodeCheckOnly">
@@ -20,6 +20,7 @@
         deployRoot="src" checkOnly="true"/>
     </target>
 <!-- testLevel = RunLocalTests, RunAllTestsInOrg, NoTestRun-->
+    <!-- logType="None"-->
     <!-- runAllTests="true"-->
     <target name="undeployCode">
       <sf:deploy username="${sf.username}" 
