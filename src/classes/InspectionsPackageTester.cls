@@ -1,5 +1,7 @@
 //@IsTest(SeeAllData=true)
-global class InspectionsPackageTester implements HttpCalloutMock {
+//global class InspectionsPackageTester implements HttpCalloutMock {
+   global class InspectionsPackageTester {
+
    /* static testMethod void testPackage() {
         //Insert two stores
         Store__c store1 = new Store__c();
