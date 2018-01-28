@@ -12,7 +12,7 @@ global class InspectionsPackageTester implements HttpCalloutMock {
         store1.Region__c = 'Madrid';
         
         Store__c store2 = new Store__c();
-        store2.Address__c = 'Gran Via 1';
+        store2.Address__c = 'Gran Via 2';
         store2.City__c = 'Madrid';
         store2.Country__c = 'Spain';
         store2.Postal_Code__c = 28013;
