@@ -4,7 +4,7 @@ global class InspectionsPackageTester implements HttpCalloutMock {
    //global class InspectionsPackageTester {
 
     static testMethod void testPackage() {
-        //Insert two stores 1
+        //Insert two stores 
         Store__c store1 = new Store__c();
         store1.Address__c = 'Paseo de la Castellana 135';
         store1.City__c = 'Madrid';
