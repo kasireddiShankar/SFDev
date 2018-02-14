@@ -4,7 +4,7 @@ global class InspectionServices {
     	if (ids == null) {
     		return 'Error: you must provide  id';	
     	}
-    	
+    	  //this changes by shankar
         List<string> iids = ids.split(',');
         return complete([SELECT Passed__c, Answered__c, Survey__r.Inspection__c 
                          FROM Survey_Response__c 
