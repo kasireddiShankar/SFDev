@@ -1,6 +1,6 @@
 public class SampleClass{
 
-//test comments now 123
+//test comments test comments
 
 public static void method1(){
 Account a = new Account();
